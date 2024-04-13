@@ -27,6 +27,25 @@ To compile the application from source, ensure you have:
 
 - Java Development Kit (JDK) 14 or newer
 
+## Autostart Options
+
+To ensure that HeadsetSleepDeprivator starts automatically when your computer boots, you can use one of the following methods:
+
+### Adding to Startup Folder (Windows)
+1. **Press `Win + R`** to open the Run dialog.
+2. **Type `shell:startup`** and press Enter to open the Startup folder.
+3. **Place a shortcut** to the `HeadsetSleepDeprivator.jar` file in this folder. To create a shortcut:
+   - Right-click on `HeadsetSleepDeprivator.jar`, select `Send to`, and then `Desktop (create shortcut)`.
+   - Drag the created shortcut from your desktop into the Startup folder.
+
+### Creating a Task Schedule (Windows)
+1. **Open Task Scheduler**: You can search for "Task Scheduler" in the Start menu.
+2. **Create a new task**:
+   - In the Task Scheduler, click on `Create Basic Task...` in the right-hand Actions pane.
+   - Follow the wizard to name your task and set the trigger to `When I log on`.
+   - For the action, select `Start a program`, and browse to select your `HeadsetSleepDeprivator.jar` file.
+   - Finish the wizard to create the task.
+
 ## Configuration
 
 The application generates a `config.txt` file upon the first run. Users can edit this file to customize the following parameters:
