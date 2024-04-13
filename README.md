@@ -4,7 +4,7 @@
 
 **Important Notice:** I have about three months of programming experience, and this software has not been vetted by an experienced programmer. **It is highly advised to wait with using this program until it has been reviewed and verified as safe to run by a qualified individual.** Ideally, users should wait until a verified and possibly improved version is available in a branch created by someone with more experience. Users are also encouraged to review the source code themselves for additional assurance.
 
-HeadsetSleepDeprivator is a lightweight utility designed to prevent headsets from automatically turning off due to inactivity. It operates by discreetly playing a 20Hz tune for 10 seconds every 3 minutes at a low, unnoticeable volume. This application is ideal for users who need their headsets to remain powered on continuously without manual intervention.
+HeadsetSleepDeprivator is a lightweight utility designed to prevent headsets from automatically turning off due to inactivity. It operates by discreetly playing a 20Hz tune for 10 seconds every 2 minutes at a low, unnoticeable volume. This application is ideal for users who need their headsets to remain powered on continuously without manual intervention.
 
 ## Features
 
